@@ -1,6 +1,6 @@
 import unittest
 
-from modules.testrail_client import TestrailClient
+from muffin_rail._testrail_client import TestrailClient
 
 
 class TestTestrailClient(unittest.TestCase):
@@ -61,7 +61,7 @@ class TestTestrailClient(unittest.TestCase):
             test_data = case["test_data"]
             with self.assertRaises(ValueError, msg=f"Case: {case['name']} - failed"):
                 TestrailClient(
-                    host="123",
+                    host=test_data["host"],
                     username=test_data["username"],
                     password=test_data["password"],
                     project_id=test_data["project_id"],
