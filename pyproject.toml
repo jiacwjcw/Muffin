@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "muffin"
+version = "0.1.0"
+description = ""
+authors = ["jc <jc.wu@gogolook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+testrail-api = "^1.13.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
