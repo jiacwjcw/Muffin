@@ -25,3 +25,5 @@ venv.bak/
 # Settings
 .vscode
 .DS_Store
+
+dist/
