@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "muffin_rail"
+name = "testrail_client"
 version = "0.1.0"
 description = ""
 authors = ["jiacwjcw <quota0619@gmail.com>"]
@@ -19,7 +19,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [project]
-name = "muffin_rail"
+name = "testrail_client"
 version = "0.0.1"
 authors = [{ name = "jiacwjcw", email = "quota0619@gmail.com" }]
 description = "Using the testrail-api package, you can fetch information for all test cases under a specific suite. This information is useful for automated testing purposes."
@@ -37,5 +37,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jiacwjcw/muffin_rail"
-Issues = "https://github.com/jiacwjcw/muffin_rail/issues"
+Homepage = "https://github.com/jiacwjcw/testrail_client"
+Issues = "https://github.com/jiacwjcw/testrail_client/issues"

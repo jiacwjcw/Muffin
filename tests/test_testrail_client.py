@@ -1,6 +1,6 @@
 import unittest
 
-from muffin_rail._testrail_client import TestrailClient
+from testrail_client._testrail_client import TestrailClient
 
 
 class TestTestrailClient(unittest.TestCase):
