@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "testrail_client"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["jiacwjcw <quota0619@gmail.com>"]
 readme = "README.md"
